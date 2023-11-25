@@ -1,0 +1,23 @@
+/* RESET CSS */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: grid;
+  gap: 15px;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.movie-cover{
+  width: 100%;
+}
