@@ -26,16 +26,20 @@ function App() {
     getMovies()
   },  []   )
 
-  const renderMovies = () =>(
-      movies.map(movie => (
-          <MovieCard
-            key={movie.id}
-            movie={movie}   
-          />
-          
-         ))
-
-  )
+  const renderMovies = () =>
+    movies.map((item) => (
+      <MovieCard
+        key={item?.id}
+        id={item?.id}
+        name={item?.title || item?.original_title}
+        releaseDate={item?.release_date}
+        originalLang={item?.original_language}
+        imageURL={item?.poster_path}
+        imdbRating={item?.vote_average}
+        genreId={item?.genre_ids}
+        movie={item}
+      />
+    ));
 
   return (
     <div className="App">
