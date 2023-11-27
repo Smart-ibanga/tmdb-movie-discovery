@@ -1,4 +1,5 @@
 import React from 'react'
+import Favourite from './responsiveIcons/Favourite';
 
 const MovieCard = ({
 movie,
@@ -28,7 +29,7 @@ movie,
         </div>
         <div className='genre_and_favourite'>
           <p>TV SERIES</p>
-          
+          <Favourite />
         </div>
       </div>
 

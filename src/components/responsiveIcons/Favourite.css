@@ -1,0 +1,17 @@
+.love-button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 80%;
+  transition: background-color 0.3s ease;
+}
+
+.love-button:hover {
+  background-color: #eee; /* Change the background color on hover if desired */
+}
+
+.love-button.loved {
+  background-color: #ff6b6b; /* Change the background color when loved */
+  color: #fff; /* Change the text color when loved */
+}
