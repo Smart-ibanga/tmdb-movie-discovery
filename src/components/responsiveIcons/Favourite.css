@@ -1,4 +1,4 @@
-.love-button {
+/* .love-button {
   border: none;
   padding: 10px 20px;
   font-size: 16px;
@@ -9,9 +9,19 @@
 
 .love-button:hover {
   background-color: #eee; /* Change the background color on hover if desired */
-}
-
+/* }
 .love-button.loved {
   background-color: #ff6b6b; /* Change the background color when loved */
-  color: #fff; /* Change the text color when loved */
+  /*color: #fff;*/ /* Change the text color when loved */
+/*}*/
+
+.heart-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: fill 0.3s ease;
+}
+
+.heart-icon.liked {
+  fill: #ff0000; /* Change the fill color when liked */
 }
